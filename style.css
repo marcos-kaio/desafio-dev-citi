@@ -18,27 +18,68 @@ body{
     flex-direction: column;
     align-items: center;
 }
-#side-bar #title{
-    font-size: 30px;
-    font-weight: bolder;
-    color: #4fe677;
-    margin-bottom: 30px;
-}
-#side-bar img{
+#side-bar #profile-picture{
     border-radius: 50%;
-    border: 1px solid #4fe677;
+    border: 2px solid #4fe677;
+    margin-top: 30px;
     width: 50%;
-    transition: ease-in-out .5s;
+    transition: ease-in-out .3s;
 }
-#side-bar img:hover{
+#side-bar #profile-picture:hover{
     border: 3px solid #4fe677;
     cursor: pointer;
     width: 51%;
-    transition: ease-in-out .5s;
+    transition: ease-in-out .3s;
 }
-h1{
+#side-bar h1{
     color: white;
     font-weight: 500;
+    margin-bottom: 0;
+}
+#side-bar #info-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+#side-bar #info-container p{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 15px;
+    text-align: justify;
+    background-color: rgba(103, 110, 118, 0.563);
+    color: rgb(195, 195, 195);
+    transition: .3s ease-in-out;
+}
+#side-bar #info-container p:hover{
+    color: white;
+    transition: .3s ease-in-out;
+}
+#side-bar #info-container h2{
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#side-bar .social-container{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+#side-bar .social-container a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+#side-bar .social-container a:hover{
+    text-decoration: underline .8px;
+    text-underline-offset: 3px;
+}
+#side-bar .social-container #img-config{
+    width: 28px;
 }
 
 /* main section styles */
@@ -53,17 +94,38 @@ h1{
     font-style: italic;
     padding-top: 25px;
     margin-right: 50px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+}
+#main header #title{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4fe677;
+    transition: ease-in-out .2s;
+}
+#main #title:hover{
+    text-shadow: white 1px 0px 1px;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+#main #container{
+    width: 70%;
+    display: flex;
+    align-items: center;
 }
 #main p{
-    margin-top: 0;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 0;
+    text-align: center;
+    width: 35%;
 }
 #main p:hover{
     text-decoration: underline .8px;
     text-underline-offset: 3px;
+    text-decoration-color: #4fe677;
     font-weight: 300;
     cursor: pointer;
 }

@@ -8,19 +8,45 @@
 </head>
 <body>
     <section id="side-bar">
-        <div id="title">Desafio &lt;dev/&gt CITi</div>
-        <img src="/assets/profile-picture.jpeg" alt="Profile picture">
+        <img id="profile-picture" src="/assets/profile-picture.jpeg" alt="Profile picture">
         <!-- adicionar mais alguma coisa qnd clicar na foto -->
         <h1>Marcos Kaiô</h1>
+        <div id="info-container">
+            <p>
+                "Sou de Recife, tenho 21 anos e curso Ciência da Computação no CIn-UFPE.
+                Gosto de filmes/séries, jogos e aprender coisas novas. Pretendo entrar no CITi
+                na área de Dev ou Dados."
+            </p>
+            <h2>Contato</h2>
+            <div class="social-container">
+                <img src="/assets/github.png" alt="GitHub logo">
+                <a href="https://github.com/marcos-kaio" target="_blank">Github</a>
+            </div>
+            <div class="social-container">
+                <img src="/assets/linkedin.png" alt="LinkedIn logo">
+                <a href="" target="_blank">LinkedIn</a>
+            </div>
+            <div class="social-container">
+                <img src="/assets/email.png" alt="Email logo" id="img-config">
+                <a href="" target="_blank">Email</a>
+            </div>
+            <div class="social-container">
+                <img src="/assets/instagram.png" alt="Instagram logo" id="img-config">
+                <a href="" target="_blank">Instagram</a>
+            </div>
+        </div>
         <!-- adicionar informações de contato, redes sociais, etc -->
     </section>
     <section id="main">
         <header>
-            <p>Sobre mim</p>
-            <p>Hobbies</p>
-            <p>Filmes e séries favoritos</p>
-            <p>Curiosidades</p>
-            <p>Projetos</p>
+            <div id="title">Desafio &lt;dev/&gt CITi</div>
+            <div id="container">
+                <p>Sobre mim</p>
+                <p>Hobbies</p>
+                <p>Filmes e séries</p>
+                <p>Curiosidades</p>
+                <p>Projetos</p>
+            </div>
         </header>
         <div class="about-block" id="sobre">
             <h2>Sobre mim</h2>
@@ -32,7 +58,7 @@
             <p></p>
         </div>
         <div class="about-block" id="cinema">
-            <h2>Filmes e séries favoritos</h2>
+            <h2>Filmes e séries</h2>
             <p></p>
         </div>
         <div class="about-block" id="curiosidades">
