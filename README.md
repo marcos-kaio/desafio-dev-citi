@@ -5,7 +5,7 @@ O objetivo principal foi construir uma landing page estática e responsiva (com 
 
 Acesse o site aqui: [Desafio Dev](https://marcos-kaio.github.io/desafio-dev-citi/)
 
-### ✨ Funcionalidades
+## ✨ Funcionalidades
 
 O layout da página é dividido em duas seções principais: uma sidebar fixa à esquerda e uma área de conteúdo principal (main) rolável à direita.
 
@@ -22,7 +22,7 @@ O layout da página é dividido em duas seções principais: uma sidebar fixa à
 * **Design Interativo:** A página conta com diversos efeitos de hover em links, ícones e cards para uma experiência de usuário mais dinâmica e interessante, tudo feito com transições de CSS.
 * **CSS-Only:** O desafio foi completado sem o uso de qualquer biblioteca ou script JavaScript.
 
-### 🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 Este projeto foi construído inteiramente com tecnologias web fundamentais:
 
